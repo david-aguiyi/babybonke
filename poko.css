@@ -152,6 +152,12 @@ button {
     justify-content: space-between;
 }
 
+h2.ca-num {
+    font-family: 'snart';
+    text-align: center;
+}
+
+
 .main-button button {
     border-radius: 12px;
     margin-top: 4rem;
