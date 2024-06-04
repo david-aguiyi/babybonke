@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
-    color: rgb(0, 0, 0);
+    color: rgb(255 255 255);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -452,7 +452,7 @@ img#comm {
 .p2p-info p {
     padding-top: 1em;
     width: auto;
-    color: rgb(0, 0, 0);
+    color: white;
     font-family: snart;
     display: flex;
     max-width: 650px;
@@ -500,7 +500,7 @@ img#comm {
     padding-right: 1em;
 }
 .check ul li p {
-    color: rgb(0, 0, 0);
+    color: white;
     margin-top: 5px;
     font-family: snart;
     font-weight: 700;
@@ -635,7 +635,7 @@ input::-ms-selection {
 .card-body ul li {
     list-style-type: none;
     margin-top: 1rem;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -647,6 +647,7 @@ input::-ms-selection {
 
 .card-body h4 {
     font-size: 2.5rem;
+    color: black;
 }
 .card-body p {
     font-family: Space;
@@ -658,7 +659,7 @@ input::-ms-selection {
     text-align: center;
     font-family: Space;
     font-size: 3rem;
-    color: #ebc78b;
+    color: #ffffff;
 }
 .card-body.p-4 {
     padding: 30px;
@@ -758,7 +759,7 @@ input::-ms-selection {
 }
 
 .gradient-custom {
-    background: #1aa4eb;
+    background: #EBC78B;
     border: 2px solid rgb(39, 26, 26);
 }
 
@@ -1219,6 +1220,7 @@ img.right-img {
     .senthead {
         background: none;
         height: 7rem;
+        width: 80%;
         padding: 1rem 1.7rem;
         display: flex;
         justify-content: center;
